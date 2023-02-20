@@ -63,27 +63,27 @@ namespace WindowsFormsApp3
     }
     public class ControlMaping
     {
-        int controlMode = 1;
-        string leftJoyX = "";
-        bool isLeftJoyXInverted = false;
-        string leftJoyY = "";
-        bool isLeftJoyYInverted = false;
-        string rightJoyX = "";
-        bool isRightJoyXInverted = false;
-        string rightJoyY = "";
-        bool isRightJoyYInverted = false;
-        string potent1 = "";
-        string potent2 = "";
-        string triSwitch1Pos1 = "";
-        string triSwitch1Pos2 = "";
-        string triSwitch1Pos3 = "";
-        string triSwitch2Pos1 = "";
-        string triSwitch2Pos2 = "";
-        string triSwitch2Pos3 = "";
-        string toggleSwitch1Pos1 = "";
-        string toggleSwitch1Pos2 = "";
-        string toggleSwitch2Pos1 = "";
-        string toggleSwitch2Pos2 = "";
+        public int controlMode = 1;
+        public string leftJoyX = "";
+        public bool isLeftJoyXInverted = false;
+        public string leftJoyY = "";
+        public bool isLeftJoyYInverted = false;
+        public string rightJoyX = "";
+        public bool isRightJoyXInverted = false;
+        public string rightJoyY = "";
+        public bool isRightJoyYInverted = false;
+        public string potent1 = "";
+        public string potent2 = "";
+        public string triSwitch1Pos1 = "";
+        public string triSwitch1Pos2 = "";
+        public string triSwitch1Pos3 = "";
+        public string triSwitch2Pos1 = "";
+        public string triSwitch2Pos2 = "";
+        public string triSwitch2Pos3 = "";
+        public string toggleSwitch1Pos1 = "";
+        public string toggleSwitch1Pos2 = "";
+        public string toggleSwitch2Pos1 = "";
+        public string toggleSwitch2Pos2 = "";
 
         object joyJsonMap = new Dictionary<string, int>()
         {
@@ -108,8 +108,10 @@ namespace WindowsFormsApp3
         {
             {"Drone Sensitivity", 0}
         };
-        
-        public 
+        public string ToJson()
+        {
+            return "";
+        }
     }
 }
 

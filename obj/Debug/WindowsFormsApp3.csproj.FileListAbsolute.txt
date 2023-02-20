@@ -28,3 +28,14 @@ C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\obj\Debug\WindowsFor
 C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
 C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\obj\Debug\WindowsFormsApp3.exe
 C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\John\Documents\GitHub\Drone-Controler\obj\Debug\WindowsFormsApp3.csproj.AssemblyReference.cache
+C:\Users\John\Documents\GitHub\Drone-Controler\obj\Debug\WindowsFormsApp3.csproj.SuggestedBindingRedirects.cache
+C:\Users\John\Documents\GitHub\Drone-Controler\obj\Debug\WindowsFormsApp3.DroneControler.resources
+C:\Users\John\Documents\GitHub\Drone-Controler\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\John\Documents\GitHub\Drone-Controler\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\John\Documents\GitHub\Drone-Controler\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\GitHub\Drone-Controler\obj\Debug\WindowsFormsApp3.exe
+C:\Users\John\Documents\GitHub\Drone-Controler\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\John\Documents\GitHub\Drone-Controler\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\John\Documents\GitHub\Drone-Controler\bin\Debug\WindowsFormsApp3.exe
+C:\Users\John\Documents\GitHub\Drone-Controler\bin\Debug\WindowsFormsApp3.pdb
