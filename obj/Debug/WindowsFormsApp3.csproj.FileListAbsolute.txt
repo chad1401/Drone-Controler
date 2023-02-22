@@ -39,6 +39,7 @@ C:\Users\John\Documents\GitHub\Drone-Controler\obj\Debug\WindowsFormsApp3.pdb
 C:\Users\John\Documents\GitHub\Drone-Controler\bin\Debug\WindowsFormsApp3.exe.config
 C:\Users\John\Documents\GitHub\Drone-Controler\bin\Debug\WindowsFormsApp3.exe
 C:\Users\John\Documents\GitHub\Drone-Controler\bin\Debug\WindowsFormsApp3.pdb
+<<<<<<< Updated upstream
 C:\Users\kayle\Documents\Drone-Controler\obj\Debug\WindowsFormsApp3.csproj.AssemblyReference.cache
 C:\Users\kayle\Documents\Drone-Controler\obj\Debug\WindowsFormsApp3.csproj.SuggestedBindingRedirects.cache
 C:\Users\kayle\Documents\Drone-Controler\obj\Debug\WindowsFormsApp3.DroneControler.resources
@@ -47,3 +48,24 @@ C:\Users\kayle\Documents\Drone-Controler\obj\Debug\WindowsFormsApp3.csproj.Gener
 C:\Users\kayle\Documents\Drone-Controler\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
 C:\Users\kayle\Documents\Drone-Controler\obj\Debug\WindowsFormsApp3.exe
 C:\Users\kayle\Documents\Drone-Controler\obj\Debug\WindowsFormsApp3.pdb
+=======
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.Buffers.dll
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.Memory.dll
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.Text.Json.dll
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.ValueTuple.dll
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.Buffers.xml
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.Memory.xml
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.Text.Json.xml
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.ValueTuple.xml
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\obj\Debug\WindowsFormsApp3.csproj.CopyComplete
+>>>>>>> Stashed changes
