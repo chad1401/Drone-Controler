@@ -6,12 +6,41 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp3
 {
+    public class JsonConfig
+    {
+        public int controlMode = 0;
+        public JoyJson leftJoy;
+        public JoyJson rightJoy;
+        public PotentJson potent1;
+        public PotentJson potent2;
+        public TriJson tri1;
+        public TriJson tri2;
+        public TriJson tri3;
+        public ToggleJson tog1;
+        public ToggleJson tog2;
+
+        public JsonConfig(int controlMode, JoyJson leftJoy, JoyJson rightJoy, PotentJson potent1,
+            PotentJson potent2, TriJson tri1, TriJson tri2, TriJson tri3, ToggleJson tog1,
+            ToggleJson tog2)
+        {
+            this.controlMode = controlMode;
+            this.leftJoy = leftJoy;
+            this.rightJoy = rightJoy;
+            this.potent1 = potent1;
+            this.potent2 = potent2;
+            this.tri1 = tri1;
+            this.tri2 = tri2;
+            this.tri3 = tri3;
+            this.tog1 = tog1;
+            this.tog2 = tog2;
+        }
+    }
     public class JoyDirSetting
     {
         public int joySetting = 0;
         public int isInverted = 0;
 
-        JoyDirSetting(int joySetting, int isInverted)
+        public JoyDirSetting(int joySetting, int isInverted)
         {
             this.joySetting = joySetting;
             this.isInverted = isInverted;
@@ -19,8 +48,8 @@ namespace WindowsFormsApp3
     }
     public class JoyJson
     {
-        public JoyDirSetting x;
-        public JoyDirSetting y;
+        private JoyDirSetting x;
+        private JoyDirSetting y;
 
         public JoyJson(JoyDirSetting x, JoyDirSetting y)
         {
@@ -30,9 +59,9 @@ namespace WindowsFormsApp3
     }
     public class TriJson
     {
-        public int pos1;
-        public int pos2;
-        public int pos3;
+        private int pos1;
+        private int pos2;
+        private int pos3;
 
         public TriJson(int pos1, int pos2, int pos3)
         {
@@ -43,8 +72,8 @@ namespace WindowsFormsApp3
     }
     public class ToggleJson
     {
-        public int pos1;
-        public int pos2;
+        private int pos1;
+        private int pos2;
 
         public ToggleJson(int pos1, int pos2)
         {
@@ -54,7 +83,7 @@ namespace WindowsFormsApp3
     }
     public class PotentJson
     {
-        public int setting;
+        private int setting;
 
         public PotentJson(int setting)
         {
@@ -108,8 +137,13 @@ namespace WindowsFormsApp3
         {
             {"Drone Sensitivity", 0}
         };
+        public JoyDirSetting GetJoyDirSetting()
+        {
+            return new JoyDirSetting(joyJsonMap[leftJoyX], isLeftJoyXInverted ? 1 : 0);
+        }
         public string ToJson()
         {
+            JsonConfig json = new JsonConfig();
             return "";
         }
     }
