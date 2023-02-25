@@ -31,7 +31,26 @@ namespace WindowsFormsApp3
         public string toggleSwitch2Pos2 = "";
 
         public string stringToNum(string s) {
-            if (s == "yaw") { return 3.ToString(); }
+            if (s == "yaw left") { return 1.ToString(); }
+            if (s == "yaw right") { return 2.ToString(); }
+            if (s == "throttle up") { return 3.ToString(); }
+            if (s == "throttle down") { return 4.ToString(); }
+            if (s == "roll left") { return 5.ToString(); }
+            if (s == "roll right") { return 6.ToString(); }
+            if (s == "pitch down") { return 7.ToString(); }
+            if (s == "pitch up") { return 8.ToString(); }
+            if (s == "Flightmode A") { return 1.ToString(); }
+            if (s == "Flightmode B") { return 2.ToString(); }
+            if (s == "Flightmode C") { return 3.ToString(); }
+            if (s == "Switch Surface Tracking A") { return 1.ToString(); }
+            if (s == "Switch Surface Tracking B") { return 2.ToString(); }
+            if (s == "Switch Surface Tracking C") { return 3.ToString(); }
+            if (s == "PID") { return 1.ToString(); }
+            if (s == "RTL") { return 2.ToString(); }
+            if (s == "Radar On") { return 1.ToString(); }
+            if (s == "Radar Off") { return 2.ToString(); }
+            if (s == "GPS On") { return 1.ToString(); }
+            if (s == "GPS Off") { return 2.ToString(); }
             
             return ""; 
         }
