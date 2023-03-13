@@ -378,9 +378,16 @@
             this.comboBox14.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox14.FormattingEnabled = true;
             this.comboBox14.Items.AddRange(new object[] {
-            "Switch Surface Tracking A",
-            "Switch Surface Tracking B",
-            "Switch Surface Tracking C"});
+            "Control Mode 1",
+            "Control Mode 2",
+            "Control Mode 3",
+            "Control Mode 4",
+            "Surface Tracking 1",
+            "Surface Tracking 2",
+            "Surface Tracking 3",
+            "Surface Tracking 4",
+            "GPS On/Off",
+            "Radar On/Off"});
             this.comboBox14.Location = new System.Drawing.Point(131, 380);
             this.comboBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox14.Name = "comboBox14";
@@ -401,9 +408,16 @@
             this.comboBox15.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox15.FormattingEnabled = true;
             this.comboBox15.Items.AddRange(new object[] {
-            "Switch Surface Tracking A",
-            "Switch Surface Tracking B",
-            "Switch Surface Tracking C"});
+            "Control Mode 1",
+            "Control Mode 2",
+            "Control Mode 3",
+            "Control Mode 4",
+            "Surface Tracking 1",
+            "Surface Tracking 2",
+            "Surface Tracking 3",
+            "Surface Tracking 4",
+            "GPS On/Off",
+            "Radar On/Off"});
             this.comboBox15.Location = new System.Drawing.Point(131, 350);
             this.comboBox15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox15.Name = "comboBox15";
@@ -424,9 +438,16 @@
             this.comboBox16.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox16.FormattingEnabled = true;
             this.comboBox16.Items.AddRange(new object[] {
-            "Switch Surface Tracking A",
-            "Switch Surface Tracking B",
-            "Switch Surface Tracking C"});
+            "Control Mode 1",
+            "Control Mode 2",
+            "Control Mode 3",
+            "Control Mode 4",
+            "Surface Tracking 1",
+            "Surface Tracking 2",
+            "Surface Tracking 3",
+            "Surface Tracking 4",
+            "GPS On/Off",
+            "Radar On/Off"});
             this.comboBox16.Location = new System.Drawing.Point(131, 321);
             this.comboBox16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox16.Name = "comboBox16";
@@ -447,9 +468,16 @@
             this.comboBox13.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox13.FormattingEnabled = true;
             this.comboBox13.Items.AddRange(new object[] {
-            "Flightmode A",
-            "Flightmode B",
-            "Flightmode C"});
+            "Control Mode 1",
+            "Control Mode 2",
+            "Control Mode 3",
+            "Control Mode 4",
+            "Surface Tracking 1",
+            "Surface Tracking 2",
+            "Surface Tracking 3",
+            "Surface Tracking 4",
+            "GPS On/Off",
+            "Radar On/Off"});
             this.comboBox13.Location = new System.Drawing.Point(131, 274);
             this.comboBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox13.Name = "comboBox13";
@@ -470,9 +498,16 @@
             this.comboBox11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox11.FormattingEnabled = true;
             this.comboBox11.Items.AddRange(new object[] {
-            "Flightmode A",
-            "Flightmode B",
-            "Flightmode C"});
+            "Control Mode 1",
+            "Control Mode 2",
+            "Control Mode 3",
+            "Control Mode 4",
+            "Surface Tracking 1",
+            "Surface Tracking 2",
+            "Surface Tracking 3",
+            "Surface Tracking 4",
+            "GPS On/Off",
+            "Radar On/Off"});
             this.comboBox11.Location = new System.Drawing.Point(131, 245);
             this.comboBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox11.Name = "comboBox11";
@@ -493,9 +528,16 @@
             this.comboBox12.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox12.FormattingEnabled = true;
             this.comboBox12.Items.AddRange(new object[] {
-            "Flightmode A",
-            "Flightmode B",
-            "Flightmode C"});
+            "Control Mode 1",
+            "Control Mode 2",
+            "Control Mode 3",
+            "Control Mode 4",
+            "Surface Tracking 1",
+            "Surface Tracking 2",
+            "Surface Tracking 3",
+            "Surface Tracking 4",
+            "GPS On/Off",
+            "Radar On/Off"});
             this.comboBox12.Location = new System.Drawing.Point(131, 217);
             this.comboBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox12.Name = "comboBox12";
@@ -604,8 +646,16 @@
             this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox8.FormattingEnabled = true;
             this.comboBox8.Items.AddRange(new object[] {
-            "Radar On/Off",
-            "GPS On/Off"});
+            "Control Mode 1",
+            "Control Mode 2",
+            "Control Mode 3",
+            "Control Mode 4",
+            "Surface Tracking 1",
+            "Surface Tracking 2",
+            "Surface Tracking 3",
+            "Surface Tracking 4",
+            "GPS On/Off",
+            "Radar On/Off"});
             this.comboBox8.Location = new System.Drawing.Point(445, 325);
             this.comboBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox8.Name = "comboBox8";
@@ -626,8 +676,16 @@
             this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox7.FormattingEnabled = true;
             this.comboBox7.Items.AddRange(new object[] {
-            "Radar On/Off",
-            "GPS On/Off"});
+            "Control Mode 1",
+            "Control Mode 2",
+            "Control Mode 3",
+            "Control Mode 4",
+            "Surface Tracking 1",
+            "Surface Tracking 2",
+            "Surface Tracking 3",
+            "Surface Tracking 4",
+            "GPS On/Off",
+            "Radar On/Off"});
             this.comboBox7.Location = new System.Drawing.Point(445, 295);
             this.comboBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox7.Name = "comboBox7";
@@ -648,8 +706,16 @@
             this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox5.FormattingEnabled = true;
             this.comboBox5.Items.AddRange(new object[] {
-            "Radar On/Off",
-            "GPS On/Off"});
+            "Control Mode 1",
+            "Control Mode 2",
+            "Control Mode 3",
+            "Control Mode 4",
+            "Surface Tracking 1",
+            "Surface Tracking 2",
+            "Surface Tracking 3",
+            "Surface Tracking 4",
+            "GPS On/Off",
+            "Radar On/Off"});
             this.comboBox5.Location = new System.Drawing.Point(445, 245);
             this.comboBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox5.Name = "comboBox5";
@@ -671,8 +737,16 @@
             this.comboBox6.FormattingEnabled = true;
             this.comboBox6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.comboBox6.Items.AddRange(new object[] {
+            "Control Mode 1",
+            "Control Mode 2",
+            "Control Mode 3",
+            "Control Mode 4",
             "GPS On/Off",
-            "Radar On/Off"});
+            "Radar On/Off",
+            "Surface Tracking 1",
+            "Surface Tracking 2",
+            "Surface Tracking 3",
+            "Surface Tracking 4"});
             this.comboBox6.Location = new System.Drawing.Point(445, 217);
             this.comboBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox6.Name = "comboBox6";
