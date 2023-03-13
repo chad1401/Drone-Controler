@@ -30,17 +30,57 @@ namespace WindowsFormsApp3
         public string toggleSwitch2Pos1 = "";
         public string toggleSwitch2Pos2 = "";
 
-
-
         public string stringToNum(string s) {
-            if (s == "yaw") { return 3.ToString(); }
+            if (s == "yaw left") { return 1.ToString(); }
+            if (s == "yaw right") { return 2.ToString(); }
+            if (s == "throttle up") { return 3.ToString(); }
+            if (s == "throttle down") { return 4.ToString(); }
+            if (s == "roll left") { return 5.ToString(); }
+            if (s == "roll right") { return 6.ToString(); }
+            if (s == "pitch down") { return 7.ToString(); }
+            if (s == "pitch up") { return 8.ToString(); }
+            if (s == "Flightmode A") { return 1.ToString(); }
+            if (s == "Flightmode B") { return 2.ToString(); }
+            if (s == "Flightmode C") { return 3.ToString(); }
+            if (s == "Switch Surface Tracking A") { return 1.ToString(); }
+            if (s == "Switch Surface Tracking B") { return 2.ToString(); }
+            if (s == "Switch Surface Tracking C") { return 3.ToString(); }
+            if (s == "PID") { return 1.ToString(); }
+            if (s == "RTL") { return 2.ToString(); }
+            if (s == "Radar On") { return 1.ToString(); }
+            if (s == "Radar Off") { return 2.ToString(); }
+            if (s == "GPS On") { return 1.ToString(); }
+            if (s == "GPS Off") { return 2.ToString(); }
             
             return ""; 
         }
+        public string boolToNum(bool b)
+        {
+            return b ? 1.ToString() : 0.ToString();
+        }
         public string toJsn() {
             string s = "{" +
-            "leftJoyX" + stringToNum(leftJoyX) + "," +
-            "leftJoyY" + stringToNum(leftJoyY) + "," +
+            "\"controlMode\": " + controlMode.ToString() + ", " +
+            "\"leftJoyX\": " + stringToNum(leftJoyX) + ", " +
+            "\"isLeftJoyXInverted\": " + boolToNum(isLeftJoyXInverted) + ", " +
+            "\"leftJoyY\": " + stringToNum(leftJoyY) + ", " +
+            "\"isLeftJoyYInverted\": " + boolToNum(isLeftJoyYInverted) + ", " +
+            "\"rightJoyX\": " + stringToNum(rightJoyX) + ", " +
+            "\"isRightJoyXInverted\": " + boolToNum(isRightJoyXInverted) + ", " +
+            "\"rightJoyY\": " + stringToNum(leftJoyX) + ", " +
+            "\"isRightJoyYInverted\": " + boolToNum(isRightJoyYInverted) + ", " +
+            "\"potent1\": " + stringToNum(potent1) + ", " +
+            "\"potent2\": " + stringToNum(potent2) + ", " +
+            "\"triSwitch1Pos1\": " + stringToNum(triSwitch1Pos1) + ", " +
+            "\"triSwitch1Pos2\": " + stringToNum(triSwitch1Pos2) + ", " +
+            "\"triSwitch1Pos3\": " + stringToNum(triSwitch1Pos3) + ", " +
+            "\"triSwitch2Pos1\": " + stringToNum(triSwitch2Pos1) + ", " +
+            "\"triSwitch2Pos2\": " + stringToNum(triSwitch2Pos2) + ", " +
+            "\"triSwitch2Pos3\": " + stringToNum(triSwitch2Pos3) + ", " +
+            "\"toggleSwitch1Pos1\": " + stringToNum(toggleSwitch1Pos1) + ", " +
+            "\"toggleSwitch1Pos2\": " + stringToNum(toggleSwitch1Pos2) + ", " +
+            "\"toggleSwitch2Pos1\": " + stringToNum(toggleSwitch2Pos1) + ", " +
+            "\"toggleSwitch2Pos2\": " + stringToNum(toggleSwitch2Pos2) + ", " +
             "}";
 
             return s; 

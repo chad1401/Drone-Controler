@@ -51,5 +51,10 @@ namespace WindowsFormsApp3
         {
 
         }
+
+        private void comboBox9_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
