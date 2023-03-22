@@ -768,10 +768,15 @@
             this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
-            "yaw highpower/lowpower",
-            "throttle highpower/lowpower",
-            "roll highpower/lowpower",
-            "pitch highpower/lowpower"});
+            "Yaw",
+            "Throttle",
+            "Roll",
+            "Pitch",
+            "Elevation",
+            "Rotation",
+            "Sensitivity",
+            "Camera Tilt",
+            "Camera Zoom"});
             this.comboBox3.Location = new System.Drawing.Point(131, 153);
             this.comboBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox3.Name = "comboBox3";
@@ -792,10 +797,15 @@
             this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Items.AddRange(new object[] {
-            "yaw highpower/lowpower",
-            "throttle highpower/lowpower",
-            "roll highpower/lowpower",
-            "pitch highpower/lowpower"});
+            "Yaw",
+            "Throttle",
+            "Roll",
+            "Pitch",
+            "Elevation",
+            "Rotation",
+            "Sensitivity",
+            "Camera Tilt",
+            "Camera Zoom"});
             this.comboBox4.Location = new System.Drawing.Point(131, 122);
             this.comboBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox4.Name = "comboBox4";
@@ -816,10 +826,15 @@
             this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
-            "yaw highpower/lowpower",
-            "throttle highpower/lowpower",
-            "roll highpower/lowpower",
-            "pitch highpower/lowpower"});
+            "Yaw",
+            "Throttle",
+            "Roll",
+            "Pitch",
+            "Elevation",
+            "Rotation",
+            "Sensitivity",
+            "Camera Tilt",
+            "Camera Zoom"});
             this.comboBox2.Location = new System.Drawing.Point(131, 92);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox2.Name = "comboBox2";
@@ -840,10 +855,15 @@
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "yaw highpower/lowpower",
-            "throttle highpower/lowpower",
-            "roll highpower/lowpower",
-            "pitch highpower/lowpower"});
+            "Yaw",
+            "Throttle",
+            "Roll",
+            "Pitch",
+            "Elevation",
+            "Rotation",
+            "Sensitivity",
+            "Camera Tilt",
+            "Camera Zoom"});
             this.comboBox1.Location = new System.Drawing.Point(131, 62);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
