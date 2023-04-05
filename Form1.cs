@@ -7,6 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using System.IO;
+
+
 
 namespace WindowsFormsApp3
 {
@@ -147,5 +152,53 @@ namespace WindowsFormsApp3
         {
             mapping.isRightJoyYInverted = checkBox7.Checked;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            mapping = JsonSerializer.Deserialize<ControlMaping>(read());
+
+            comboBox1.SelectedIndex = comboBox1.FindStringExact(mapping.leftJoyX);
+            comboBox2.SelectedIndex = comboBox2.FindStringExact(mapping.leftJoyY);
+            comboBox4.SelectedIndex = comboBox1.FindStringExact(mapping.rightJoyX);
+            comboBox3.SelectedIndex = comboBox1.FindStringExact(mapping.rightJoyY);
+
+            comboBox12.SelectedIndex = comboBox1.FindStringExact(mapping.triSwitch1Pos1);
+            comboBox11.SelectedIndex = comboBox1.FindStringExact(mapping.triSwitch1Pos2);
+            comboBox13.SelectedIndex = comboBox1.FindStringExact(mapping.triSwitch1Pos3);
+
+            comboBox16.SelectedIndex = comboBox1.FindStringExact(mapping.triSwitch2Pos1);
+            comboBox15.SelectedIndex = comboBox1.FindStringExact(mapping.triSwitch2Pos2);
+            comboBox14.SelectedIndex = comboBox1.FindStringExact(mapping.triSwitch2Pos3);
+
+            comboBox9.SelectedIndex = comboBox1.FindStringExact(mapping.potent1);
+            comboBox10.SelectedIndex = comboBox1.FindStringExact(mapping.potent2);
+
+            comboBox6.SelectedIndex = comboBox1.FindStringExact(mapping.toggleSwitch1Pos1);
+            comboBox5.SelectedIndex = comboBox1.FindStringExact(mapping.toggleSwitch1Pos2);
+
+            comboBox7.SelectedIndex = comboBox1.FindStringExact(mapping.toggleSwitch2Pos1);
+            comboBox8.SelectedIndex = comboBox1.FindStringExact(mapping.toggleSwitch2Pos2);
+
+
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string jsonString = JsonSerializer.Serialize<ControlMaping>(mapping);
+            write(jsonString);
+        }
+
+
+
+        void write(string str) {
+            File.WriteAllLines("Save.txt", new[] {str});
+        }
+        string read(){
+            string content = File.ReadAllText("Save.txt");
+            return content;
+        }
+
+
     }
 }
