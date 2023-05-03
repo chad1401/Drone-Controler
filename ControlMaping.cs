@@ -20,43 +20,73 @@ namespace WindowsFormsApp3
 {
     public class ControlMaping
     {
-        public int controlMode { get; set; }
-        public string leftJoy { get; set; }
-        public bool isLeftJoyInverted { get; set; }
-        public string rightJoy { get; set; }
-        public bool isRightJoyInverted { get; set; }
+        public string xGim1 { get; set; }
+        public string yGim1 { get; set; }
+        public string xGim2 { get; set; }
+        public string yGim2 { get; set; }
         public string pot1 { get; set; }
         public string pot2 { get; set; }
-        public string triSwitch1 { get; set; }
-        public string triSwitch2 { get; set; }
-        public string toggleSwitch1 { get; set; }
-        public string toggleSwitch2 { get; set; }
+        public string bi_sw1 { get; set; }
+        public string bi_sw2 { get; set; }
+        public string tri_sw1 { get; set; }
+        public string tri_sw2 { get; set; }
+        public string but1 { get; set; }
+        public string but2 { get; set; }
+
+
+    }
+
+    public class Http
+    {
+        public string URI;
+        private static readonly HttpClient client = new HttpClient();
+
+        public Http()
+        {
+        }
+
+        async public void PostData(string msg)
+        {
+
+            var values = new Dictionary<string, string>
+            {
+                { "JSON", msg }
+            };
+
+            var content = new StringContent(msg, Encoding.UTF8, "application/json");
+
+            try { var response = await client.PostAsync(URI, content); } catch(Exception e) { }
+        }
     }
 
 
-    public class Http //simple shell class for sending and receving data
+    public class HttpLegasy //simple shell class for sending and receving data
     {
-        public string URI;
         WebClient client;
 
-        public Http()
+
+        public string URI;
+        UriBuilder builder;
+
+
+
+        public HttpLegasy()
         {
             client = new WebClient();
         }
 
         public void PostData(string msg)
         {
-            Uri myUri = new Uri(URI);
-            Stream postStream = client.OpenWrite(URI);
-            postStream.Write(Encoding.ASCII.GetBytes(msg), 0, msg.Length);
-            postStream.Close();
-        }
 
-        public string DownloadData()
-        {
-            byte[] myDataBuffer = client.DownloadData(URI);
-            string download = Encoding.ASCII.GetString(myDataBuffer);
-            return download;
+            builder = new UriBuilder(URI);
+
+            Uri myUri = builder.Uri;
+            Stream postStream = client.OpenWrite(myUri);
+
+            postStream.Write(Encoding.ASCII.GetBytes(msg), 0, msg.Length);
+            // Close the stream and release resources.
+            postStream.Close();
+
         }
     }
 }

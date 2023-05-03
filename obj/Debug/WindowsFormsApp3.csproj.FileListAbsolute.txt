@@ -88,3 +88,5 @@ C:\Users\John\Documents\GitHub\Drone-Controler\bin\Debug\System.Text.Json.xml
 C:\Users\John\Documents\GitHub\Drone-Controler\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\John\Documents\GitHub\Drone-Controler\bin\Debug\System.ValueTuple.xml
 C:\Users\John\Documents\GitHub\Drone-Controler\obj\Debug\WindowsFormsApp3.csproj.CopyComplete
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.Json.dll
+C:\Users\chad1\source\repos\Drone Controler\Drone-Controler\bin\Debug\System.Json.xml

@@ -1,1 +1,1 @@
-{"controlMode":0,"leftJoy":"Channel 1","isLeftJoyInverted":false,"rightJoy":"Channel 2","isRightJoyInverted":false,"pot1":"Channel 5","pot2":"Channel 6","triSwitch1":"Channel 4","triSwitch2":null,"toggleSwitch1":"Channel 7","toggleSwitch2":"Channel 8"}
+{"xGim1":"1","yGim1":"2","xGim2":"3","yGim2":"4","pot1":"8","pot2":"7","bi_sw1":"9","bi_sw2":"10","tri_sw1":"5","tri_sw2":"6","but1":"11","but2":"14"}
